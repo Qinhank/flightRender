@@ -1,20 +1,14 @@
-﻿README
-flightRender
-标签（空格分隔）： github
-
----
-
-# flightRender
-基于jQuery||Zepto的航班数据渲染插件，用于项目的航班版块，保证数据的统一和样式的高灵活性
+﻿# flightRender
+基于jQuery || Zepto的航班数据渲染插件，用于项目的航班版块，保证数据的统一和样式的高灵活性
 
 ## 如何使用
-下载插件:
-1.使用npm
+下载插件:  
+1.使用npm  
 ```$ git clone git@github.com:Qinhank/flightRender.git```
 
 2.右上角“Clone or download”
 
-##HTML模板
+## HTML模板
 ```
 <!DOCTYPE html>
 <body>
