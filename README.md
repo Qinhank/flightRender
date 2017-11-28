@@ -1,15 +1,17 @@
-﻿# flightRender
-基于jQuery || Zepto的航班数据渲染插件，用于项目的航班版块，保证数据的统一和样式的高灵活性
+# flightRender
+基于jQuery||Zepto的航班数据渲染插件，用于项目的航班版块，保证数据的统一和样式的高灵活性
 
 ## 如何使用
 下载插件:  
-1.使用npm  
-```$ git clone git@github.com:Qinhank/flightRender.git```
-
-2.右上角“Clone or download”
-
-## HTML模板
+1.使用npm   
 ```
+$ git clone git@github.com:Qinhank/flightRender.git
+```
+
+2.右上角“Clone or download”  
+
+##HTML模板
+``` html
 <!DOCTYPE html>
 <body>
     <div id="flight"></div>
@@ -18,7 +20,7 @@
 ```
 
 ## js调用
-```
+``` javascript
 <script type="text/javascript">
     var api = 某接口;//or
     var data = {数据};
@@ -32,7 +34,7 @@
 ```
 
 ## 数据格式
-```
+``` javascript
 var data = {
 		"北京":{
 			"去程":{
@@ -64,13 +66,16 @@ var data = {
 ```
 
 ## API
-| Name | Meaning | Defalut value |
-| ---- | ------- | ------------- |
-| ```url``` | 获取一个json格式的接口，作为主数据 | '' |
-| ```data```| 如果url为空，则必须设置数据，详见“数据格式”部分 | '' |
-| ```background```| 设置整个航班盒子的背景色 | 'white' |
-| ```index```| 设置默认显示位置 | 0 |
-| ```callback```|  回调函数，默认返回参数当前标签的index |  |
+| Name             | Meaning                    | Defalut value |
+| ---------------- | -------------------------- | ------------- |
+| ```url```        | 获取一个json格式的接口，作为主数据        | ''            |
+| ```data```       | 如果url为空，则必须设置数据，详见“数据格式”部分 | ''            |
+| ```background``` | 设置整个航班盒子的背景色               | 'white'       |
+| ```index```      | 设置默认显示位置                   | 0             |
+| ```callback```   | 回调函数，默认返回参数当前标签的index      |               |
+
+
+
 
 
 
