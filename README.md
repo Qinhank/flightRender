@@ -10,7 +10,7 @@ $ git clone git@github.com:Qinhank/flightRender.git
 
 2.右上角“Clone or download”  
 
-##HTML模板
+## HTML模板
 ``` html
 <!DOCTYPE html>
 <body>
