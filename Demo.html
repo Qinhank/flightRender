@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>flightRender</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+	<link rel="stylesheet" type="text/css" href="dist/flightRender.min.css">
+</head>
+<body>
+	<div id="flight"></div>
+</body>
+<!-- <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js"></script> -->
+<script src="http://apps.bdimg.com/libs/zepto/1.1.4/zepto.js"></script>
+<script src="src/flightRender.js"></script>
+<script type="text/javascript">
+	var data = {
+		"北京":{
+			"去程":{
+				"第一天":[
+					{"go":"北京","goTime":"06:20","goAirplan":"首都国际机场","back":"马累","backTime":"12:25","backAirplan":"马累国际机场","company":"首都航空 \/ JD455","transit":"曼谷经停约45分钟"}
+				]
+			},
+			"回程":{
+				"第七天":[
+					{"go":"马累","goTime":"13:50","goAirplan":"马累国际机场","back":"北京","backTime":"00:50+1","backAirplan":"首都国际机场","company":"首都航空 \/ JD456","transit":"曼谷经停约45分钟"}
+				]
+			},
+		}
+	};
+	$('#flight').flightRender({
+		url:'',
+		data:data,
+		background:'white',
+		index:0,
+		callback:function(e){
+			console.log(e);
+		}
+	});
+</script>
+</html>
