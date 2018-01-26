@@ -3,7 +3,7 @@
 
 ## 如何使用
 下载插件:  
-1.使用npm   
+1.使用git   
 ```
 $ git clone git@github.com:Qinhank/flightRender.git
 ```
